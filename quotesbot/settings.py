@@ -13,6 +13,7 @@ BOT_NAME = 'quotesbot'
 
 SPIDER_MODULES = ['quotesbot.spiders']
 NEWSPIDER_MODULE = 'quotesbot.spiders'
+LOG_FORMATTER = 'quotesbot.logformatter.CrawlLogFormatter'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
